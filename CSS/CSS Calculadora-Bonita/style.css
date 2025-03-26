@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;               /*comando para alinhar no centro as informações do body*/
+  
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);  /*comando para arrumar os botoes, um do lado do outro*/
+}
+
